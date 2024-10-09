@@ -1,6 +1,13 @@
 <script setup>
     import { ref } from "vue";
     const show = ref(true);
+
+    useHead({
+    title: 'About Page | Merch',
+    meta: [ 
+        { name: 'description', content: ' Nuxt 3 - About Page' }
+    ]
+})
 </script>
 
 <template>

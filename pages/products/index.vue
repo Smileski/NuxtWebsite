@@ -15,6 +15,13 @@ onMounted(async () => {
         console.error(error);
     }
 });
+
+useHead({
+    title: 'Product Page | Merch',
+    meta: [ 
+        { name: 'description', content: ' Nuxt 3 - Product Page' }
+    ]
+})
 </script>
 <template>
     <div>

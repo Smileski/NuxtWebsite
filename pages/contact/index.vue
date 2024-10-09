@@ -16,6 +16,12 @@ const contactInfo = ref([
     Address: '1555 E Road Dr, Aurora, CO 80015'
   }
 ])
+useHead({
+    title: 'Contact Page | Merch',
+    meta: [ 
+        { name: 'description', content: ' Nuxt 3 - Contact Page' }
+    ]
+})
 </script>
 <script>
 const { show } = addBorder()

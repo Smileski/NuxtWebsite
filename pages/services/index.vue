@@ -39,6 +39,12 @@ export default {
     }
   }
 }
+useHead({
+    title: 'Service Page | Merch',
+    meta: [ 
+        { name: 'description', content: ' Nuxt 3 - Service Page' }
+    ]
+})
 </script>
 
 //we use scoped, so this styles will apply only to this component
